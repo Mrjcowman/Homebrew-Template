@@ -67,10 +67,16 @@ p+p {
 }
 
 a {
-    color: #c9ad6a;
+    -webkit-text-stroke: 0.2px #c9ad6a;
+    color: black;
     font-weight: bold;
-    text-decoration: double;
+    text-decoration: underline;
+    transition-property: color;
+    transition-duration: 0.25s;
+}
 
+a:hover {
+    color: #c9ad6a;
 }
 
 table {
@@ -135,6 +141,38 @@ div.columnbreak {
     break-before: column;
 }
 
+.button {
+    display: inline-block;
+    line-height: 2em;
+    box-sizing: border-box;
+    width: 5em;
+    height: 2em;
+
+    color: black;
+
+    transition-property: color, background-color;
+    transition-duration: 0.25s;
+
+    -webkit-text-stroke: unset;
+    text-decoration: unset;
+    font-family: 'Scaly Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+
+    border: 1px black outset;
+    border-radius: 3px;
+
+    text-align: center;
+
+    background-color: lightgray;
+}
+
+.button:hover{
+    background-color: gray;
+    color: #c9ad6a;
+}
+
+
 #printbutton {
     width: 5em;
     height: 2em;
@@ -145,5 +183,13 @@ div.columnbreak {
     top: 1vh;
     right: auto;
     left: auto;
+
+}
+
+#return {
+    position: fixed;
+    top: 1vh;
+    right: auto;
+    left: 1vw;
 
 }
