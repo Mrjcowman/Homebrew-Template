@@ -1,0 +1,142 @@
+
+body {
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    color: #58180D;
+    font-family: 'Mr. Eaves Small Caps', serif;
+    font-weight: 600;
+    margin: 0;
+    column-span: all;
+    font-size: 21pt;
+}
+
+h2 {
+    color: #610D0B;
+    font-family: 'Mr. Eaves Small Caps', serif;
+    font-size: 15pt;
+    font-weight: 500;
+    line-height: 0.8em;
+
+    border-bottom: 1px solid #c9ad6a;
+    margin-bottom: 4pt;
+    padding-bottom: 0;
+
+    break-after: avoid;
+}
+
+h3 {
+    color: #610D0B;
+    font-family: 'Mr. Eaves Small Caps', serif;
+    font-size: 14pt;
+    font-weight: 500;
+    line-height: 1em;
+
+    margin-bottom: 0;
+    /* margin-block-start: unset; */
+
+    break-after: avoid;
+    -webkit-column-break-after: avoid;
+}
+
+p, li {
+    font-family: Bookinsanity, Georgia, Times, 'Times New Roman', serif;
+    font-size: 9.5pt;
+    line-height: 1.4em;
+
+    margin:0;
+    break-inside: avoid;
+}
+
+ul {
+    padding-left: 1em;
+}
+
+p strong {
+    font-weight: bold;
+    font-style: italic;
+}
+
+p+p {
+    text-indent: 1em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+table caption {
+    font-family: 'Scaly Sans SC';
+    font-weight: bolder;
+    font-size: 12pt;
+    text-align: left;
+}
+
+thead {
+    font-weight: bold;
+}
+
+td {
+    margin: 0px;
+    width: auto;
+    font-family: 'Scaly Sans';
+    font-size: 9pt;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #E0E5C1;
+}
+
+td.center {
+    text-align: center;
+}
+
+.page {
+    page-break-before: always;
+    width: 6.5in;
+    height: 9in;
+    background-image: url("assets/5eBackground.jpg");
+    background-size: fill;
+    margin: 2em 0.5em 0;
+
+    padding: 1in;
+
+    column-count: 2;
+    column-gap: 0.25in;
+    column-fill: auto;
+
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.printedPage {
+    position: absolute;
+    margin: 0px;
+
+    visibility: visible;
+}
+
+div.columnbreak {
+    /* display: block; */
+    break-before: column;
+}
+
+#printbutton {
+    width: 5em;
+    height: 2em;
+    font-family: 'Scaly Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    position: fixed;
+    top: 1vh;
+    right: auto;
+    left: auto;
+
+}

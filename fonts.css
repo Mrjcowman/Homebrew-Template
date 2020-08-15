@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Bookinsanity';
+    src: url("assets/fonts/Bookinsanity/Bookinsanity.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Bookinsanity';
+    src: url("assets/fonts/Bookinsanity/BookinsanityBold.otf") format("opentype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Bookinsanity';
+    src: url("assets/fonts/Bookinsanity/BookinsanityItalic.otf") format("opentype");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bookinsanity';
+    src: url("assets/fonts/Bookinsanity/BookinsanityBoldItalic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mr. Eaves Small Caps';
+    src: url("assets/fonts/Mr\ Eaves\ Small\ Caps.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Scaly Sans';
+    src: url("assets/fonts/ScalySans/Scaly\ Sans.otf") format("opentype");
+}
+@font-face {
+    font-family: 'Scaly Sans';
+    src: url("assets/fonts/ScalySans/Scaly\ Sans\ Bold.otf") format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Scaly Sans';
+    src: url("assets/fonts/ScalySans/Scaly\ Sans.otf") format("opentype");
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Scaly Sans';
+    src: url("assets/fonts/ScalySans/Scaly\ Sans.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Scaly Sans SC';
+    src: url("assets/fonts/ScalySansSmallCaps/Scaly\ Sans\ Caps.otf") format("opentype");
+}
+@font-face {
+    font-family: 'Scaly Sans SC';
+    src: url("assets/fonts/ScalySansSmallCaps/Scaly\ Sans\ Caps\ Bold.otf") format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Scaly Sans SC';
+    src: url("assets/fonts/ScalySansSmallCaps/Scaly\ Sans\ Caps.otf") format("opentype");
+}
+@font-face {
+    font-family: 'Scaly Sans SC';
+    src: url("assets/fonts/ScalySansSmallCaps/Scaly\ Sans\ Caps.otf") format("opentype");
+}
