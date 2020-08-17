@@ -38,12 +38,12 @@
 }
 @font-face {
     font-family: 'Scaly Sans';
-    src: url("assets/fonts/ScalySans/Scaly\ Sans.otf") format("opentype");
+    src: url("assets/fonts/ScalySans/Scaly\ Sans\ Italic.otf") format("opentype");
     font-style: italic;
 }
 @font-face {
     font-family: 'Scaly Sans';
-    src: url("assets/fonts/ScalySans/Scaly\ Sans.otf") format("opentype");
+    src: url("assets/fonts/ScalySans/Scaly\ Sans\ Bold\ Italic.otf") format("opentype");
     font-weight: bold;
     font-style: italic;
 }
@@ -59,9 +59,12 @@
 }
 @font-face {
     font-family: 'Scaly Sans SC';
-    src: url("assets/fonts/ScalySansSmallCaps/Scaly\ Sans\ Caps.otf") format("opentype");
+    src: url("assets/fonts/ScalySansSmallCaps/Scaly\ Sans\ Caps\ Italic.otf") format("opentype");
+    font-style: italic;
 }
 @font-face {
     font-family: 'Scaly Sans SC';
-    src: url("assets/fonts/ScalySansSmallCaps/Scaly\ Sans\ Caps.otf") format("opentype");
+    src: url("assets/fonts/ScalySansSmallCaps/Scaly\ Sans\ Caps\ Bold\ Italic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
 }
